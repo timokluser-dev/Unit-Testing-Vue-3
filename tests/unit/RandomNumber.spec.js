@@ -1,7 +1,7 @@
 import RandomNumber from "@/components/RandomNumber";
 import { mount } from "@vue/test-utils";
 
-describe("RandomNumber", async () => {
+describe("RandomNumber", () => {
   it("if button is clicked, randomNumber should be between 1 and 10", () => {
     const wrapper = mount(RandomNumber);
     wrapper.find("button").trigger("click");
