@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader if logged in, show logout button 1`] = `
+<div class="app-header">
+  <button style>Logout</button>
+</div>
+`;
+
+exports[`AppHeader if user is initially logged out and logs in: initial 1`] = `
+<div class="app-header">
+  <button style="display: none;">Logout</button>
+</div>
+`;
+
+exports[`AppHeader if user is initially logged out and logs in: logged in 1`] = `
+<div class="app-header">
+  <button style="display: none;">Logout</button>
+</div>
+`;
+
+exports[`AppHeader if user is not logged in, do not show logout button 1`] = `
+<div class="app-header">
+  <button style="display: none;">Logout</button>
+</div>
+`;
